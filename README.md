@@ -41,7 +41,7 @@ Some of the results are shown below：
 <img src="img/figure_3.png" height="100%" width="100%"/>
 </div>
 
-## : Acknowledgments:
+## Acknowledgments:
 
 This repo is built upon [ControlNet](https://github.com/lllyasviel/ControlNet/tree/main) and [Uni-ControlNet](https://github.com/ShihaoZhaoZSH/Uni-ControlNet/tree/main). 
 Some of the functional implementations of remote sensing imagery refer to: [GeoSeg](https://github.com/WangLibo1995/GeoSeg) and [SGCN](https://github.com/tist0bsc/SGCN) Sincere thanks to their excellent work!
