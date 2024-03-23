@@ -3,7 +3,7 @@
 
 ## Hightlights
 <div align=center>
-<img src="imgs/figure_1.png" height="100%" width="100%"/>
+<img src="img/figure_1.png" height="100%" width="100%"/>
 </div>
 
 ## TODO
@@ -29,7 +29,7 @@ python src/test/test.py
 ```
 The demonstration effects of the project are as follows:
 <div align=center>
-<img src="imgs/figure_2.png" height="100%" width="100%"/>
+<img src="img/figure_2.png" height="100%" width="100%"/>
 </div>
 
 You can also use the following code to generate images more quickly
@@ -38,7 +38,7 @@ python src/test/inference.py
 ```
 Some of the results are shown below：
 <div align=center>
-<img src="imgs/figure_3.png" height="100%" width="100%"/>
+<img src="img/figure_3.png" height="100%" width="100%"/>
 </div>
 
 ## : Acknowledgments:
