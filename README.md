@@ -3,15 +3,15 @@
 
 ## Hightlights
 <div align=center>
-<img src="imgs/result_light.png" height="100%" width="100%"/>
+<img src="imgs/figure_1.png" height="100%" width="100%"/>
 </div>
 
 ## TODO
 
-- [ ] Release training and inference code.
-- [ ] Release pretrained models.
-- [ ] Release Gradio UI.
-- [ ] A light-weighted Latent-Composer built upon Stable Diffusion 2.1.
+- [x] Release inference code.
+- [x] Release pretrained models.
+- [x] Release Gradio UI.
+- [ ] Release training code
 
 ## Environment
 
@@ -28,10 +28,32 @@ You can run the code to start the gradio interface by:
 python src/test/test.py
 ```
 The demonstration effects of the project are as follows:
+<div align=center>
+<img src="imgs/figure_2.png" height="100%" width="100%"/>
+</div>
 
-You can run the code to start the gradio interface by:
+You can also use the following code to generate images more quickly
 ```bash
-python src/test/test.py
+python src/test/inference.py
 ```
+Some of the results are shown below：
+<div align=center>
+<img src="imgs/figure_3.png" height="100%" width="100%"/>
+</div>
 
+## : Acknowledgments:
 
+This repo is built upon [ControlNet](https://github.com/lllyasviel/ControlNet/tree/main) and [Uni-ControlNet](https://github.com/ShihaoZhaoZSH/Uni-ControlNet/tree/main). 
+Some of the functional implementations of remote sensing imagery refer to: [GeoSeg](https://github.com/WangLibo1995/GeoSeg) and [SGCN](https://github.com/tist0bsc/SGCN) Sincere thanks to their excellent work!
+
+## Citation
+```
+@misc{tang2024crsdiff,
+      title={CRS-Diff: Controllable Generative Remote Sensing Foundation Model}, 
+      author={Datao Tang and Xiangyong Cao and Xingsong Hou and Zhongyuan Jiang and Deyu Meng},
+      year={2024},
+      eprint={2403.11614},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
