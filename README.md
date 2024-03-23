@@ -1,7 +1,7 @@
 # CRS-Diff: Controllable Generative Remote Sensing Foundation Model
 ### [Paper (ArXiv)](https://arxiv.org/abs/2403.11614) 
 
-## Hightlights
+
 <div align=center>
 <img src="img/figure_1.png" height="100%" width="100%"/>
 </div>
