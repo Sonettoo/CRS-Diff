@@ -48,12 +48,11 @@ Some of the functional implementations of remote sensing imagery refer to: [GeoS
 
 ## Citation
 ```
-@misc{tang2024crsdiff,
-      title={CRS-Diff: Controllable Generative Remote Sensing Foundation Model}, 
-      author={Datao Tang and Xiangyong Cao and Xingsong Hou and Zhongyuan Jiang and Deyu Meng},
-      year={2024},
-      eprint={2403.11614},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{tang2024crs,
+  title={Crs-diff: Controllable remote sensing image generation with diffusion model},
+  author={Tang, Datao and Cao, Xiangyong and Hou, Xingsong and Jiang, Zhongyuan and Liu, Junmin and Meng, Deyu},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2024},
+  publisher={IEEE}
 }
 ```
